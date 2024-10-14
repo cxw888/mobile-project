@@ -1,0 +1,86 @@
+@import "background";
+
+
+
+body {
+    background-image: url(../image/train-bg.78d6d843.jpg);
+}
+
+.block-title {
+    padding: (22/@baseSize) (10/@baseSize) 0 (20/@baseSize);
+    height: (46/@baseSize);
+    font-size: (18/@baseSize);
+    color: white;
+
+}
+
+.section {
+    padding: (18/@baseSize) (13/@baseSize) (15/@baseSize) (15/@baseSize);
+    margin: (15/@baseSize) (10/@baseSize) 0;
+    height: (104/@baseSize);
+    background: rgba(2, 4, 10, .70196);
+    display: flex;
+    align-items: flex-start;
+    gap: (10/@baseSize);
+
+    .pc {
+        width: (64/@baseSize);
+        height: (64/@baseSize);
+        background: url(../image/cover.aa799c19.png);
+        background-size: cover;
+    }
+
+    .practice-namec-line-clamp2 {
+        flex: 1;
+        display: flex;
+        gap: (20/@baseSize);
+        flex-direction: column;
+
+        .practice-name__status--text {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (5/@baseSize);
+            color: white;
+
+            line-height: 1.5;
+
+            span {
+                height: (17/@baseSize);
+                font-size: (10/@baseSize);
+                border: (1/@baseSize) solid #fff;
+                border-radius: (5/@baseSize);
+                padding: (1/@baseSize);
+                color: #fff;
+                font-weight: 400;
+            }
+
+            .text {
+                font-size: (17/@baseSize);
+                font-weight: 600;
+
+            }
+        }
+
+        .meta {
+            display: flex;
+            justify-content: space-between;
+            gap: (5/@baseSize);
+
+            .itemtime {
+                color: #999;
+                display: flex;
+                font-size: (12/@baseSize);
+                justify-content: flex-start;
+                gap: (2/@baseSize);
+            }
+
+            a {
+                text-decoration: none;
+                color: #a86cff;
+                font-weight: 600;
+                font-size: (12/@baseSize);
+            }
+        }
+    }
+}

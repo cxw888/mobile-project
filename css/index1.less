@@ -1,0 +1,171 @@
+@import "background";
+
+body {
+    background-image: url(../image/train-bg.78d6d843.jpg);
+}
+
+.top {
+    margin: 0 (10/@baseSize);
+    display: flex;
+    justify-content: flex-start;
+    height: (114/@baseSize);
+    padding: (21/@baseSize) (15/@baseSize) (21/@baseSize) (21/@baseSize);
+
+    &:nth-child(2) {
+        line-height: (72/@baseSize);
+        text-indent: 1em;
+        color: white;
+        font-weight: 600;
+        font-size: (20/@baseSize);
+    }
+
+    .header {
+        width: (72/@baseSize);
+        height: (72/@baseSize);
+        border-radius: 50%;
+        position: relative;
+        background-image: linear-gradient(90deg, #e270ff, #5c67ff);
+
+        .pic {
+            position: absolute;
+            top: (3.9/@baseSize);
+            left: (3.9/@baseSize);
+            width: (64/@baseSize);
+            height: (64/@baseSize);
+            border-radius: 50%;
+            background-image: url(../image/avatar-default.png);
+            background-size: cover;
+
+        }
+    }
+}
+
+.zhong {
+    /* box-sizing: border-box; */
+    margin-right: (10/@baseSize);
+    margin-left: (10/@baseSize);
+    height: (117/@baseSize);
+
+    .navigationbar {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(48deg, rgb(226, 112, 255) 0%, rgb(91, 102, 255) 44%, rgb(16, 222, 139) 92%);
+        border-radius: (10/@baseSize);
+        padding: (1.95/@baseSize);
+
+        .contet {
+            height: (113.1/@baseSize);
+            background-color: rgb(13, 15, 36);
+            border-radius: (10/@baseSize);
+
+            .tge {
+                margin: 0 (10/@baseSize) 0;
+                display: flex;
+                height: (40/@baseSize);
+                justify-content: space-between;
+
+                .leftt {
+                    color: white;
+                    font-size: (17/@baseSize);
+                    line-height: (40/@baseSize);
+                    text-decoration: none;
+                }
+
+                .rightt {
+                    color: white;
+                    font-size: (13/@baseSize);
+                    line-height: (40/@baseSize);
+                    text-decoration: none;
+                }
+            }
+
+            .content {
+                margin: (10/@baseSize);
+                display: flex;
+                justify-content: space-around;
+
+                .item {
+                    width: (84.5/@baseSize);
+                    height: (50/@baseSize);
+                    text-align: center;
+                    position: relative;
+
+
+                    &::after {
+                        content: "";
+                        /* 不需要内容，因为我们只想要线条 */
+                        position: absolute;
+                        /* 绝对定位以控制线条的位置 */
+                        top: 50%;
+                        /* 将线条垂直居中 */
+                        right: 0;
+                        /* 将线条放置在盒子右侧 */
+                        transform: translateY(-50%);
+                        /* 垂直方向上的微调，以确保线条完全居中 */
+                        border-right: 1px solid gray;
+                        /* 创建线条，颜色为灰色，宽度为1px */
+                        height: 50%;
+                        /* 如果希望线条贯穿整个盒子高度 */
+                        /* 或者可以设置一个具体的高度值 */
+                    }
+
+                    /* 近似于1/3的100% */
+                    .number {
+                        margin-bottom: (10/@baseSize);
+                        color: white;
+                        font-weight: 600;
+                        font-size: (20/@baseSize);
+                    }
+
+                    .text {
+                        font-size: (13/@baseSize);
+                    }
+
+                }
+
+
+
+            }
+        }
+    }
+}
+
+.title {
+    margin: (20/@baseSize) (10/@baseSize) (20/@baseSize);
+    color: white;
+}
+
+.section {
+    margin: (15/@baseSize)(10/@baseSize) 0;
+    background-color: rgba(2, 4, 10, .70196);
+    display: flex;
+    font-size: (15/@baseSize);
+    border-radius: (10/@baseSize);
+    padding: (18/@baseSize) (15/@baseSize)(15/@baseSize);
+    justify-content: space-between;
+    text-decoration: none;
+    color: #666;
+
+
+    img {
+        width: (100/@baseSize);
+        height: (100/@baseSize);
+    }
+
+    .texts {
+        margin-left: (9.7/@baseSize);
+
+        h3 {
+            font-size: (15.6/@baseSize);
+            color: white;
+            margin: 0;
+        }
+    }
+
+}
+
+.bottom {
+    margin-top: (19.5/@baseSize);
+    text-align: center;
+}

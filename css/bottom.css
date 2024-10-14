@@ -1,0 +1,20 @@
+.bottom {
+  text-decoration: none;
+  margin: 0 2.56410256vw;
+  width: 94.87179487vw;
+  height: 12.30769231vw;
+  line-height: 12.30769231vw;
+  background: linear-gradient(247deg, #5c67ff 15.1%, #e270ff 84.9%), linear-gradient(90deg, #e270ff, #5c67ff);
+  position: fixed;
+  bottom: 2.56410256vw;
+  padding: 3.07692308vw 4.1025641vw;
+  border-radius: 25.64102564vw;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 4.1025641vw;
+  gap: 1.02564103vw;
+  font-weight: 600;
+  border: none;
+  align-items: center;
+}

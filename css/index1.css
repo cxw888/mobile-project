@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(../image/bg3.3f6b354c.jpg);
+  background-size: cover;
+  color: #666;
+  -webkit-text-size-adjust: 100%;
+  font-size: 3.58974359vw;
+  padding-bottom: env(safe-area-inset-bottom);
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+body {
+  background-image: url(../image/train-bg.78d6d843.jpg);
+}
+.top {
+  margin: 0 2.56410256vw;
+  display: flex;
+  justify-content: flex-start;
+  height: 29.23076923vw;
+  padding: 5.38461538vw 3.84615385vw 5.38461538vw 5.38461538vw;
+}
+.top:nth-child(2) {
+  line-height: 18.46153846vw;
+  text-indent: 1em;
+  color: white;
+  font-weight: 600;
+  font-size: 5.12820513vw;
+}
+.top .header {
+  width: 18.46153846vw;
+  height: 18.46153846vw;
+  border-radius: 50%;
+  position: relative;
+  background-image: linear-gradient(90deg, #e270ff, #5c67ff);
+}
+.top .header .pic {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  width: 16.41025641vw;
+  height: 16.41025641vw;
+  border-radius: 50%;
+  background-image: url(../image/avatar-default.png);
+  background-size: cover;
+}
+.zhong {
+  /* box-sizing: border-box; */
+  margin-right: 2.56410256vw;
+  margin-left: 2.56410256vw;
+  height: 30vw;
+}
+.zhong .navigationbar {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(48deg, #e270ff 0%, #5b66ff 44%, #10de8b 92%);
+  border-radius: 2.56410256vw;
+  padding: 0.5vw;
+}
+.zhong .navigationbar .contet {
+  height: 29vw;
+  background-color: #0d0f24;
+  border-radius: 2.56410256vw;
+}
+.zhong .navigationbar .contet .tge {
+  margin: 0 2.56410256vw 0;
+  display: flex;
+  height: 10.25641026vw;
+  justify-content: space-between;
+}
+.zhong .navigationbar .contet .tge .leftt {
+  color: white;
+  font-size: 4.35897436vw;
+  line-height: 10.25641026vw;
+  text-decoration: none;
+}
+.zhong .navigationbar .contet .tge .rightt {
+  color: white;
+  font-size: 3.33333333vw;
+  line-height: 10.25641026vw;
+  text-decoration: none;
+}
+.zhong .navigationbar .contet .content {
+  margin: 2.56410256vw;
+  display: flex;
+  justify-content: space-around;
+}
+.zhong .navigationbar .contet .content .item {
+  width: 21.66666667vw;
+  height: 12.82051282vw;
+  text-align: center;
+  position: relative;
+  /* 近似于1/3的100% */
+}
+.zhong .navigationbar .contet .content .item::after {
+  content: "";
+  /* 不需要内容，因为我们只想要线条 */
+  position: absolute;
+  /* 绝对定位以控制线条的位置 */
+  top: 50%;
+  /* 将线条垂直居中 */
+  right: 0;
+  /* 将线条放置在盒子右侧 */
+  transform: translateY(-50%);
+  /* 垂直方向上的微调，以确保线条完全居中 */
+  border-right: 1px solid gray;
+  /* 创建线条，颜色为灰色，宽度为1px */
+  height: 50%;
+  /* 如果希望线条贯穿整个盒子高度 */
+  /* 或者可以设置一个具体的高度值 */
+}
+.zhong .navigationbar .contet .content .item .number {
+  margin-bottom: 2.56410256vw;
+  color: white;
+  font-weight: 600;
+  font-size: 5.12820513vw;
+}
+.zhong .navigationbar .contet .content .item .text {
+  font-size: 3.33333333vw;
+}
+.title {
+  margin: 5.12820513vw 2.56410256vw 5.12820513vw;
+  color: white;
+}
+.section {
+  margin: 3.84615385vw 2.56410256vw 0;
+  background-color: rgba(2, 4, 10, 0.70196);
+  display: flex;
+  font-size: 3.84615385vw;
+  border-radius: 2.56410256vw;
+  padding: 4.61538462vw 3.84615385vw 3.84615385vw;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #666;
+}
+.section img {
+  width: 25.64102564vw;
+  height: 25.64102564vw;
+}
+.section .texts {
+  margin-left: 2.48717949vw;
+}
+.section .texts h3 {
+  font-size: 4vw;
+  color: white;
+  margin: 0;
+}
+.bottom {
+  margin-top: 5vw;
+  text-align: center;
+}

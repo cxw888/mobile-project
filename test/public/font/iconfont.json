@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "139355551",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "139355552",
+      "name": "书本",
+      "font_class": "a-book",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "139464221",
+      "name": "结束",
+      "font_class": "jieshu",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "139464222",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "7629048",
+      "name": "话筒",
+      "font_class": "huatong",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "15686654",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    }
+  ]
+}
